@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Website</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">💪 Power Gym</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Programs</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Members</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Train Hard</h2>
+            <h3 class="subtitle">Build strength, confidence, and discipline</h3>
+            <p class="description">
+              Welcome to Power Gym — a place where limits are broken and results are built.
+            </p>
+            <div class="buttons">
+              <a href="#contact" class="button order-now">Join Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/kettlebell.png" alt="Gym" class="hero-image" width="300px" height="400px"/>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/aboutimg.jpg" alt="About Gym" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">
+              Power Gym is dedicated to helping you achieve peak physical performance.
+              With modern equipment, expert coaches, and a motivating atmosphere,
+              we turn effort into results.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Programs -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Programs</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/strength.png" class="menu-image" />
+              <h3 class="name">Strength Training</h3>
+              <p class="text">Build raw power and muscle mass.</p>
+            </li>
+            <li class="menu-item">
+              <img src="images/cardio.png" class="menu-image" />
+              <h3 class="name">Cardio</h3>
+              <p class="text">Improve endurance and burn fat.</p>
+            </li>
+            <li class="menu-item">
+              <img src="images/crossfit.png" class="menu-image" />
+              <h3 class="name">Cross Training</h3>
+              <p class="text">High-intensity functional workouts.</p>
+            </li>
+            <li class="menu-item">
+              <img src="images/personal-training.png" class="menu-image" />
+              <h3 class="name">Personal Training</h3>
+              <p class="text">One-on-one coaching for faster results.</p>
+            </li>
+            <li class="menu-item">
+              <img src="images/boxing.png" class="menu-image" />
+              <h3 class="name">Boxing</h3>
+              <p class="text">Power, speed, and conditioning.</p>
+            </li>
+            <li class="menu-item">
+              <img src="images/yoga.png" class="menu-image" />
+              <h3 class="name">Mobility & Yoga</h3>
+              <p class="text">Flexibility, recovery, and balance.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Members</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-1.jpg" class="user-image" />
+                  <h3 class="name">Alex R.</h3>
+                  <i class="feedback">"Best gym atmosphere I've ever trained in."</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-2.jpg" class="user-image" />
+                  <h3 class="name">Mark L.</h3>
+                  <i class="feedback">"Serious equipment, serious results."</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-3.jpg" class="user-image" />
+                  <h3 class="name">Daniel K.</h3>
+                  <i class="feedback">"The coaches actually care."</i>
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title-gallery">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item"><img src="images/gym-1.png" class="gallery-image"/></li>
+            <li class="gallery-item"><img src="images/gym-2.png" class="gallery-image"/></li>
+            <li class="gallery-item"><img src="images/gym-3.png" class="gallery-image"/></li>
+            <li class="gallery-item"><img src="images/gym-4.png" class="gallery-image"/></li>
+            <li class="gallery-item"><img src="images/gym-5.png" class="gallery-image"/></li>
+            <li class="gallery-item"><img src="images/gym-6.png" class="gallery-image"/></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info"><i class="fa-solid fa-location-crosshairs"></i><p>Main Street 45, City</p></li>
+            <li class="contact-info"><i class="fa-regular fa-envelope"></i><p>info@powergym.com</p></li>
+            <li class="contact-info"><i class="fa-solid fa-phone"></i><p>+355 69 000 0000</p></li>
+            <li class="contact-info"><i class="fa-regular fa-clock"></i><p>Mon – Sat: 06:00 – 22:00</p></li>
+          </ul>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button class="button submit-button">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2026 Power Gym</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
